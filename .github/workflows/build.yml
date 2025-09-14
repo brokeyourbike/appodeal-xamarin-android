@@ -37,10 +37,10 @@ jobs:
         uses: NuGet/setup-nuget@v1
 
       - name: Restore NuGet packages
-        run: nuget restore AppodealXamarin.sln
+        run: nuget restore AppodealXamarinPlugin.sln
 
       - name: Build solution
-        run: msbuild AppodealXamarin.sln /p:Configuration=Release
+        run: msbuild AppodealXamarinPlugin.sln /p:Configuration=Release
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
