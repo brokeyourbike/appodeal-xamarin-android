@@ -25,17 +25,10 @@ jobs:
           distribution: 'temurin'
           java-version: '11'
 
-      - name: Add Android SDK tools to PATH
-        shell: bash
+      - name: Ensure Android SDK platform 33 is installed
         run: |
-          echo "${ANDROID_HOME}/cmdline-tools/latest/bin" >> $GITHUB_PATH
-          echo "${ANDROID_HOME}/platform-tools" >> $GITHUB_PATH
-          echo "${ANDROID_HOME}/emulator" >> $GITHUB_PATH
-
-      - name: Ensure Android SDK platforms are installed
-        shell: bash
-        run: |
-          sdkmanager --sdk_root="${ANDROID_HOME}" "platforms;android-33"
+          "%ANDROID_HOME%\cmdline-tools\latest\bin\sdkmanager.bat" "platforms;android-33"
+        shell: cmd
 
       - name: Setup MSBuild
         uses: microsoft/setup-msbuild@v1
