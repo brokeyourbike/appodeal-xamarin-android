@@ -1,0 +1,56 @@
+# Visual Studio user-specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+# keep the manifest
+!packages/*.config
+
+# Xamarin.Android intermediate files
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.aar
+*.apk.idsig
+*.apk.resigned
+*.keystore
+*.jks
+
+# JetBrains Rider / ReSharper
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Crash logs
+*.stackdump
+
+# Test results
+TestResult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Other
+*.pidb
+*.svclog
+*.sccs
