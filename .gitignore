@@ -30,6 +30,8 @@ packages/
 *.apk.resigned
 *.keystore
 *.jks
+!Jars/*.aar
+!Jars/*.jar
 
 # JetBrains Rider / ReSharper
 .idea/
