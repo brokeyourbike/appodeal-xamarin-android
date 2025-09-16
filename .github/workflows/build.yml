@@ -1,0 +1,51 @@
+name: build
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Setup Java (for Android tooling)
+        uses: actions/setup-java@v5
+        with:
+          distribution: 'adopt'
+          java-version: '17'
+
+      - name: Ensure Android SDK platform 33 is installed
+        run: |
+          "%ANDROID_HOME%\cmdline-tools\latest\bin\sdkmanager.bat" "platforms;android-33"
+        shell: cmd
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Setup NuGet
+        uses: NuGet/setup-nuget@v2
+
+      - name: Restore NuGet packages
+        run: nuget restore AppodealXamarinPlugin.sln
+
+      - name: Build solution
+        run: msbuild AppodealXamarinPlugin.sln /p:Configuration=Release
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: AppodealXamarinPlugin
+          path: |
+            **/bin/Release/*.dll
+            **/bin/Release/*.nupkg
