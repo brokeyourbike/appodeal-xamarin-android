@@ -280,6 +280,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <LibraryProjectZip Include="Jars\mobilefuse-sdk-vast-1.9.2.aar" />
     <LibraryProjectZip Include="Jars\sdk-3.7.0.0.aar" />
     <LibraryProjectZip Include="Jars\logging-30.14.0.aar" />
     <LibraryProjectZip Include="Jars\rewardedad-4.5.2.aar" />
@@ -290,6 +291,7 @@
     <LibraryProjectZip Include="Jars\utils-30.14.0.aar" />
     <LibraryProjectZip Include="Jars\div-svg-30.14.0.aar" />
     <LibraryProjectZip Include="Jars\smaato-sdk-banner-22.7.2.aar" />
+    <LibraryProjectZip Include="Jars\mobilefuse-adapter-1.9.2.1.aar" />
     <LibraryProjectZip Include="Jars\div-data-30.14.0.aar" />
     <EmbeddedReferenceJar Include="Jars\okhttp-4.11.0.jar" />
     <LibraryProjectZip Include="Jars\volley-1.2.1.aar" />
@@ -331,6 +333,7 @@
     <LibraryProjectZip Include="Jars\bytedance-adapter-7.1.0.4.0.aar" />
     <LibraryProjectZip Include="Jars\bigo-adapter-4.3.9.aar" />
     <LibraryProjectZip Include="Jars\inmobi-adapter-10.8.3.0.aar" />
+    <LibraryProjectZip Include="Jars\mobilefuse-sdk-telemetry-1.9.2.aar" />
     <LibraryProjectZip Include="Jars\nativead-4.5.2.aar" />
     <EmbeddedReferenceJar Include="Jars\ktor-events-jvm-2.3.12.jar" />
     <LibraryProjectZip Include="Jars\coil-compose-2.2.2.aar" />
@@ -356,6 +359,7 @@
     <LibraryProjectZip Include="Jars\analytics-core-utils-7.3.0.aar" />
     <LibraryProjectZip Include="Jars\ads.networks.gam_dynamic.versions.v21_0_0-3.2.1.0.aar" />
     <LibraryProjectZip Include="Jars\smaato-sdk-interstitial-22.7.2.aar" />
+    <LibraryProjectZip Include="Jars\mobilefuse-adapter-0.7.9.0.aar" />
     <LibraryProjectZip Include="Jars\module-core-22.7.2.aar" />
     <LibraryProjectZip Include="Jars\chartboost-sdk-9.8.3.aar" />
     <LibraryProjectZip Include="Jars\module-mvvm-common-22.7.2.aar" />
@@ -369,6 +373,7 @@
     <LibraryProjectZip Include="Jars\verve-adapter-3.3.0.0.aar" />
     <LibraryProjectZip Include="Jars\div-30.14.0.aar" />
     <LibraryProjectZip Include="Jars\webrendering-4.5.2.aar" />
+    <LibraryProjectZip Include="Jars\mobilefuse-adapter-4.3.7.aar" />
     <LibraryProjectZip Include="Jars\smaato-sdk-rewarded-ads-22.7.2.aar" />
     <LibraryProjectZip Include="Jars\ads.networks.pangle-3.2.1.11.aar" />
     <LibraryProjectZip Include="Jars\amazon-3.7.0.0.aar" />
@@ -378,6 +383,7 @@
     <LibraryProjectZip Include="Jars\proto-0.6.0.aar" />
     <EmbeddedReferenceJar Include="Jars\ktor-utils-jvm-2.3.12.jar" />
     <LibraryProjectZip Include="Jars\ads-3.2.1.aar" />
+    <LibraryProjectZip Include="Jars\mobilefuse-3.7.0.0.aar" />
     <LibraryProjectZip Include="Jars\bidon-3.7.0.0.aar" />
     <LibraryProjectZip Include="Jars\ogury-omsdk-1.4.7.aar" />
     <EmbeddedReferenceJar Include="Jars\api-public-1.5.0.jar" />
@@ -417,6 +423,7 @@
     <LibraryProjectZip Include="Jars\ads.networks.gam.versions.v23_0_0-3.2.1.0.aar" />
     <LibraryProjectZip Include="Jars\yandex-adapter-7.9.0.1.aar" />
     <LibraryProjectZip Include="Jars\ads.networks.gam-3.2.1.3.aar" />
+    <LibraryProjectZip Include="Jars\mobilefuse-sdk-core-1.9.2.aar" />
     <LibraryProjectZip Include="Jars\rendering-2.4.0.aar" />
     <LibraryProjectZip Include="Jars\my_target-3.7.0.0.aar" />
     <LibraryProjectZip Include="Jars\ads.networks.vungle-3.2.1.9.aar" />
@@ -456,6 +463,7 @@
     <LibraryProjectZip Include="Jars\pag-gecko-2.0.0.5.aar" />
     <LibraryProjectZip Include="Jars\accompanist-drawablepainter-0.25.1.aar" />
     <LibraryProjectZip Include="Jars\bigoads-adapter-5.3.0.1.aar" />
+    <LibraryProjectZip Include="Jars\mobilefuse-video-player-1.9.2.aar" />
     <LibraryProjectZip Include="Jars\ads.networks.amazon-3.2.1.17.aar" />
     <LibraryProjectZip Include="Jars\smaato-adapter-22.7.2.0.aar" />
     <LibraryProjectZip Include="Jars\analytics-remote-permissions-7.3.0.aar" />
@@ -469,6 +477,8 @@
     <LibraryProjectZip Include="Jars\chartboost-adapter-0.7.9.0.aar" />
     <LibraryProjectZip Include="Jars\analytics-logger-7.3.0.aar" />
     <LibraryProjectZip Include="Jars\ironsource-adapter-0.7.9.0.aar" />
+    <LibraryProjectZip Include="Jars\mobilefuse-sdk-common-1.9.2.aar" />
+    <LibraryProjectZip Include="Jars\mobilefuse-sdk-omsdk-1.4.13.aar" />
     <LibraryProjectZip Include="Jars\ads.networks.mintegral-3.2.1.13.aar" />
     <LibraryProjectZip Include="Jars\analytics-modules-api-7.3.0.aar" />
     <LibraryProjectZip Include="Jars\hybid.sdk.core-3.3.0.aar" />
@@ -540,6 +550,7 @@
     <LibraryProjectZip Include="Jars\analytics-common-logger-7.3.0.aar" />
     <LibraryProjectZip Include="Jars\vungle-adapter-0.7.9.0.aar" />
     <LibraryProjectZip Include="Jars\meta-3.7.0.0.aar" />
+    <LibraryProjectZip Include="Jars\mobilefuse-sdk-mraid-1.9.2.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <Import Project="packages\Xamarin.AndroidX.MultiDex.2.0.1.13\build\monoandroid12.0\Xamarin.AndroidX.MultiDex.targets" Condition="Exists('packages\Xamarin.AndroidX.MultiDex.2.0.1.13\build\monoandroid12.0\Xamarin.AndroidX.MultiDex.targets')" />
