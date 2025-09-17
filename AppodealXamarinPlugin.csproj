@@ -280,41 +280,19 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\sdk-3.7.0.0.aar" />
-    <LibraryProjectZip Include="Jars\mintegral-3.7.0.0.aar" />
-    <LibraryProjectZip Include="Jars\analytics-3.7.0.aar" />
-    <LibraryProjectZip Include="Jars\core-3.7.0.aar" />
-    <LibraryProjectZip Include="Jars\mbridge_android_sdk-16.9.71.aar" />
-    <LibraryProjectZip Include="Jars\internal-3.7.0.aar" />
-    <LibraryProjectZip Include="Jars\public-3.7.0.aar" />
-    <LibraryProjectZip Include="Jars\consent-3.7.0.aar" />
-    <LibraryProjectZip Include="Jars\advertising-3.7.0.aar" />
-    <LibraryProjectZip Include="Jars\ext-3.7.0.aar" />
-    <LibraryProjectZip Include="Jars\admob-3.7.0.0.aar" />
-    <LibraryProjectZip Include="Jars\network-3.7.0.aar" />
-    <EmbeddedReferenceJar Include="Jars\checker-qual-3.12.0.jar" />
-    <EmbeddedReferenceJar Include="Jars\error_prone_annotations-2.11.0.jar" />
-    <EmbeddedReferenceJar Include="Jars\jspecify-1.0.0.jar" />
-    <EmbeddedReferenceJar Include="Jars\annotations-23.0.0.jar" />
-    <EmbeddedReferenceJar Include="Jars\protobuf-java-3.16.0.jar" />
-    <EmbeddedReferenceJar Include="Jars\failureaccess-1.0.1.jar" />
-    <EmbeddedReferenceJar Include="Jars\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
-    <EmbeddedReferenceJar Include="Jars\j2objc-annotations-1.3.jar" />
-    <EmbeddedReferenceJar Include="Jars\guava-31.1-android.jar" />
-    <EmbeddedReferenceJar Include="Jars\protobuf-models-1.4.3.jar" />
-    <EmbeddedReferenceJar Include="Jars\jsr305-3.0.2.jar" />
-    <EmbeddedReferenceJar Include="Jars\network-3.7.0\classes.jar" />
-    <EmbeddedReferenceJar Include="Jars\ext-3.7.0\classes.jar" />
-    <EmbeddedReferenceJar Include="Jars\admob-3.7.0.0\classes.jar" />
-    <EmbeddedReferenceJar Include="Jars\mbridge_android_sdk-16.9.71\classes.jar" />
-    <EmbeddedReferenceJar Include="Jars\sdk-3.7.0.0\classes.jar" />
-    <EmbeddedReferenceJar Include="Jars\analytics-3.7.0\classes.jar" />
-    <EmbeddedReferenceJar Include="Jars\public-3.7.0\classes.jar" />
-    <EmbeddedReferenceJar Include="Jars\consent-3.7.0\classes.jar" />
-    <EmbeddedReferenceJar Include="Jars\advertising-3.7.0\classes.jar" />
-    <EmbeddedReferenceJar Include="Jars\mintegral-3.7.0.0\classes.jar" />
-    <EmbeddedReferenceJar Include="Jars\core-3.7.0\classes.jar" />
-    <EmbeddedReferenceJar Include="Jars\internal-3.7.0\classes.jar" />
+    <LibraryProjectZip Include="uber.aar" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedJar Include="checker-qual-3.12.0.jar" />
+    <EmbeddedJar Include="error_prone_annotations-2.11.0.jar" />
+    <EmbeddedJar Include="annotations-23.0.0.jar" />
+    <EmbeddedJar Include="protobuf-java-3.16.0.jar" />
+    <EmbeddedJar Include="failureaccess-1.0.1.jar" />
+    <EmbeddedJar Include="listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+    <EmbeddedJar Include="j2objc-annotations-1.3.jar" />
+    <EmbeddedJar Include="guava-31.1-android.jar" />
+    <EmbeddedJar Include="protobuf-models-1.4.3.jar" />
+    <EmbeddedJar Include="jsr305-3.0.2.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <Import Project="packages\Xamarin.AndroidX.MultiDex.2.0.1.13\build\monoandroid12.0\Xamarin.AndroidX.MultiDex.targets" Condition="Exists('packages\Xamarin.AndroidX.MultiDex.2.0.1.13\build\monoandroid12.0\Xamarin.AndroidX.MultiDex.targets')" />
