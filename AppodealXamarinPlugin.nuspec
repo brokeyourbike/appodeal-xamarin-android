@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>AppodealXamarinPlugin</id>
-    <version>3.7.2</version>
+    <version>3.7.3</version>
     <title>Appodeal Xamarin Binding Library</title>
     <authors>Ivan Stasiuk, Appodeal Inc.</authors>
     <owners>Ivan Stasiuk, Appodeal Inc.</owners>
