@@ -1,2 +1,42 @@
 ﻿<metadata>
+	<remove-node path="/api/package[@name='sun.misc']" />
+	<remove-node path="/api/package[@name='java.security']" />
+	
+	<!-- Strip all Google Protobuf packages -->
+	<remove-node path="/api/package[@name='com.google.protobuf']" />
+	<remove-node path="/api/package[@name='com.explorestack.protobuf']" />
+	<remove-node path="/api/package[@name='com.explorestack.protobuf.compiler']" />
+	<remove-node path="/api/package[@name='com.appodeal.protobuf']" />
+
+	<!-- Strip Kotlin coroutines internals -->
+	<remove-node path="/api/package[@name='kotlin.coroutines']" />
+	<remove-node path="/api/package[@name='kotlin.coroutines.jvm.internal']" />
+	<remove-node path="/api/package[@name='kotlinx.coroutines']" />
+
+	<!-- Strip compiler/plugin protos -->
+	<remove-node path="/api/package[@name='com.explorestack.protobuf.compiler']" />
+	<remove-node path="/api/package[@name='com.explorestack.protobuf.compiler.PluginProtos']" />
+
+	<!-- Remove single-letter obfuscated classes -->
+	<remove-node path="/api/package[@name='com.appodeal.ads']/class[@name='A']" />
+	<remove-node path="/api/package[@name='com.appodeal.ads']/class[@name='A0']" />
+	<remove-node path="/api/package[@name='com.appodeal.ads']/class[@name='B']" />
+	<remove-node path="/api/package[@name='com.appodeal.ads']/class[@name='C1']" />
+	<remove-node path="/api/package[@name='com.appodeal.ads']/class[@name='D']" />
+	<remove-node path="/api/package[@name='com.appodeal.ads']/class[@name='E']" />
+	<remove-node path="/api/package[@name='com.appodeal.ads']/class[@name='F2']" />
+	<remove-node path="/api/package[@name='com.appodeal.ads']/class[@name='R0']" />
+	<remove-node path="/api/package[@name='com.appodeal.ads.storage']/class[@name='A']" />
+
+	<!-- Drop all Appodeal networking internals -->
+	<remove-node path="/api/package[@name='com.appodeal.ads.network']" />
+
+	<!-- Drop obfuscated storage internals -->
+	<remove-node path="/api/package[@name='com.appodeal.ads.storage']" />
+
+	<!-- Drop all IntelliJ IDEA annotations (not needed at runtime) -->
+	<remove-node path="/api/package[@name='org.intellij.lang.annotations']" />
+
+	<!-- Drop or rename utils -->
+	<remove-node path="/api/package[@name='com.appodeal.ads.utils']/class[@name='Version']" />
 </metadata>
