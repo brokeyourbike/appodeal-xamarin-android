@@ -283,7 +283,13 @@
     <LibraryProjectZip Include="Jars\uber.aar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="protobuf-models-1.4.3.jar">
+    <EmbeddedJar Include="Jars\annotations-23.0.0.jar">
+      <Bind>false</Bind>
+    </EmbeddedJar>
+    <EmbeddedJar Include="Jars\protobuf-java-3.16.0.jar">
+      <Bind>false</Bind>
+    </EmbeddedJar>
+    <EmbeddedJar Include="Jars\protobuf-models-1.4.3.jar">
       <Bind>false</Bind>
     </EmbeddedJar>
   </ItemGroup>
