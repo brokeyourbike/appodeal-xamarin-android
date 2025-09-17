@@ -278,9 +278,9 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
     <TransformFile Include="Transforms\Metadata.xml" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <LibraryProjectZip Include="Jars\uber.aar" />
+    <Compile Include="Jars\Resource.designer.cs" />
     <AndroidResource Include="Resources\**\*.*" />
   </ItemGroup>
   <ItemGroup>
