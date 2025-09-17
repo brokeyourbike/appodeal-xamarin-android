@@ -281,6 +281,7 @@
   <ItemGroup />
   <ItemGroup>
     <LibraryProjectZip Include="Jars\uber.aar" />
+    <AndroidResource Include="Resources\**\*.*" />
   </ItemGroup>
   <ItemGroup>
     <InputJar Include="Jars\annotations-23.0.0.jar">
