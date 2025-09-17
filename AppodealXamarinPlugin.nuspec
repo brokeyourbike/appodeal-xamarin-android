@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>AppodealXamarinPlugin</id>
-    <version>3.7.0</version>
+    <version>3.7.1</version>
     <title>Appodeal Xamarin Binding Library</title>
     <authors>Ivan Stasiuk, Appodeal Inc.</authors>
     <owners>Ivan Stasiuk, Appodeal Inc.</owners>
@@ -82,6 +82,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\Release\AppodealXamarinPlugin.dll" target="lib\MonoAndroid12.0\" />
+    <file src="bin\Release\AppodealXamarinPlugin.dll" target="lib\MonoAndroid13.0\" />
   </files>
 </package>

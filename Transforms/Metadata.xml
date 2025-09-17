@@ -35,6 +35,7 @@
 	<remove-node path="/api/package[@name='com.appodeal.ads.storage']" />
 
 	<!-- Drop all IntelliJ IDEA annotations (not needed at runtime) -->
+	<remove-node path="/api/package[@name='org.jetbrains.annotations']" />
 	<remove-node path="/api/package[@name='org.intellij.lang.annotations']" />
 
 	<!-- Drop or rename utils -->
