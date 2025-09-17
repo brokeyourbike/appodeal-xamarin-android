@@ -283,15 +283,15 @@
     <LibraryProjectZip Include="Jars\uber.aar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\annotations-23.0.0.jar">
+    <InputJar Include="Jars\annotations-23.0.0.jar">
       <Bind>false</Bind>
-    </EmbeddedJar>
-    <EmbeddedJar Include="Jars\protobuf-java-3.16.0.jar">
+    </InputJar>
+    <InputJar Include="Jars\protobuf-java-3.16.0.jar">
       <Bind>false</Bind>
-    </EmbeddedJar>
-    <EmbeddedJar Include="Jars\protobuf-models-1.4.3.jar">
+    </InputJar>
+    <InputJar Include="Jars\protobuf-models-1.4.3.jar">
       <Bind>false</Bind>
-    </EmbeddedJar>
+    </InputJar>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <Import Project="packages\Xamarin.AndroidX.MultiDex.2.0.1.13\build\monoandroid12.0\Xamarin.AndroidX.MultiDex.targets" Condition="Exists('packages\Xamarin.AndroidX.MultiDex.2.0.1.13\build\monoandroid12.0\Xamarin.AndroidX.MultiDex.targets')" />
